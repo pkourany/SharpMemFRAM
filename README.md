@@ -62,6 +62,8 @@ Configuration
 -------------
 This demo uses the Adafruit_mfGFX display library along with a heavily modified version of the Adafruit_Sharpmem driver.  Display resolution is set in Adafruit_Sharpmem.h.  The existing code is set for a 400x200 display.
 
+Demo
+----
 The SharpMemDisplay.ino demo will draw a number of graphic objects on the screen.  On a 128x128 Sharp display the first part of the demo which draws lines works fine.  On a 400x200 display, this portion of the demo seems to stall the display.  I have not had a chance to figure out why yet so that portion is commented out.
 
 
